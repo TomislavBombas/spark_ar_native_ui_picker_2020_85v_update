@@ -9,8 +9,9 @@ const Textures = require('Textures');
 
 
 // First, we create a Promise and load all the assets we need for our scene
-
-let iconsArray = ['icon-PK', 'icon-BC', 'icon-CA', 'icon-LE', 'icon-PP', 'icon-ML', 'icon-PO', 'icon-PA', 'icon-SU', 'icon-SM', 'icon-KV', 'icon-BG', 'icon-ZR', 'icon-SO', 'icon-KI', 'icon-NI', 'icon-UE'];
+//In this arry put the names of your icons. They will be populated in Promisse later to be used in pickerUI
+let iconsArray = ['icon-1', 'icon-BC', 'icon-CA', 'icon-LE', 'icon-PP', 'icon-ML', 'icon-PO', 'icon-PA', 'icon-SU', 'icon-SM', 'icon-KV', 'icon-BG', 'icon-ZR', 'icon-SO', 'icon-KI', 'icon-NI', 'icon-UE'];
+//In this array put the names of your objects you wish to choose from with pickerUI.
 let meshArray = ['MaskPK', 'MaskBC', 'MaskCA', 'MaskLE', 'MaskPP', 'MaskML', 'MaskPO', 'MaskPA', 'MaskSU', 'MaskSM', 'MaskKV', 'MaskBG', 'MaskZR', 'MaskSO', 'MaskKI', 'MaskNI', 'MaskUE'];
 let objectList = [];
 function makeAList() {
